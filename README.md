@@ -1,7 +1,9 @@
 # DATA641 - Assignment 3
 
 Course (PCS): DATA 641 (PCS4)
+
 Author: Emily Hightower
+
 Date Due: 2025.11.12
 
 The following project and text are responses adapted from "Homework 3" by Professor Naeemul Hassan (2025, UMD).
@@ -26,11 +28,13 @@ After training the models, the models are evaluated to show F1-score, accuracy, 
 
 # Program Components & Functionality
 
+
 **Recommendations:**
 - Save the dataset as "dataset.csv" if not using the pre-saved IMDb dataset in GitHub.
 - Review the .py documents to ensure the pathways match appropriately.
 - If re-implementing this code, rename, move or delete presaved processed documents (i.e., metrics, processed/, results/, preprocessing_stats, preprocessing_times).
 - Use the following hardware or GPUs to run the program with similar timing.
+
 
 **Hardware:**
 - CPU: arm
@@ -39,11 +43,13 @@ After training the models, the models are evaluated to show F1-score, accuracy, 
 - RAM: 48.00 GB
 - GPU: None
 
+
 **Libraries:**
 - Core: pandas, nltk, regex, numpy
 - ML/DL: torch, torchvision, torchaudio, tensorflow
 - Evaluation: scikit-learn
 - Utilities: tqdm, joblib
+
 
 **Files (runtime in seconds):**
 - hardware (0.01 seconds)
@@ -53,7 +59,9 @@ After training the models, the models are evaluated to show F1-score, accuracy, 
 - evaluate (*run by driver.py*)
 - util (*run by driver.py*)
 - driver (6.212 hours)
+- 
 *Total Runtime:* 6.214 hours
+
 
 # Code Implementation:
 - pip install -r requirements.txt
@@ -65,6 +73,7 @@ After training the models, the models are evaluated to show F1-score, accuracy, 
     --stats_file results/preprocessing_stats.csv
 - python driver.py
 
+
 *Example Execution: Single Model*
 python src/train.py \
     --architecture LSTM \
@@ -75,6 +84,7 @@ python src/train.py \
     --epochs 5 \
     --batch_size 32 \
     --save_model
+
 
 The epochs (5) and batch_size (32) are defaults. These can be set to other values as well in the single model training approach.
 
