@@ -83,3 +83,5 @@ The epochs (5) and batch_size (32) are defaults. These can be set to other value
 Hassan N. “Homework 3.” ELMS, 2025, umd.instructure.com/courses/1395714/assignments/7388552.
 
 Lakshmipathi N. “IMDB Dataset of 50K Movie Reviews.” Kaggle.com, 2019, www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/code.
+
+Maas, Andrew L., Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. “Learning Word Vectors for Sentiment Analysis.” Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, Association for Computational Linguistics, June 2011, Portland, Oregon, pp. 142–150. http://www.aclweb.org/anthology/P11-1015
